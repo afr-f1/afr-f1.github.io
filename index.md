@@ -2,18 +2,12 @@
 
 欢迎加入F1 AFR联赛 qq:960827622
 
-Fast Jump
-=========
-
-* S5
-  * [R04-阿塞拜疆](#R04-阿塞拜疆)
-
 ---
 
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png) 
 
 
-## R04-阿塞拜疆
+## S5R04-阿塞拜疆
 
 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
 
@@ -41,7 +35,9 @@ Fast Jump
 
 ![国旗]( https://steamuserimages-a.akamaihd.net/ugc/775107058373552665/29C01902E25F8B516D4D4BC7E2448E4694C9C4B8/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-## S5 R03 中国 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R03)
+## S5R03-中国 
+
+[--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R03)
 
 ### 官方视频
 
@@ -69,7 +65,9 @@ Fast Jump
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/510px-Flag_of_Bahrain.svg.png)
 
 
-## S5 R02 巴林 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
+## S5R02-巴林 
+
+[--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
 
 ### 官方视频
 
@@ -93,7 +91,9 @@ Fast Jump
 
 ![国旗](http://guide.itrip.com/file/201912/02153315gm4l.jpg)
 
-## S5 R01 澳大利亚 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R01)
+## S5R01-澳大利亚 
+
+[--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R01)
 
 ### 官方视频
 
