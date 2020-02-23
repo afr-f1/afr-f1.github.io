@@ -2,12 +2,20 @@
 
 欢迎加入F1 AFR联赛 qq:960827622
 
+Fast Jump
+=========
+
+* S5
+  * [R04-阿塞拜疆](#R04-阿塞拜疆)
+
 ---
 
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png) 
 
 
-## S5 R04 阿塞拜疆 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
+## R04-阿塞拜疆
+
+[--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
 
 ### 官方视频
 
