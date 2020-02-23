@@ -55,6 +55,11 @@
 
 [stevenli(封神之战！在自己的弱图上海从P14到P3，完美的策略执行力和稳定性相结合的制胜关键！)](https://www.bilibili.com/video/av89079675)
 
+---
+
+![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/510px-Flag_of_Bahrain.svg.png)
+
+
 ## S5 R02 巴林 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
 
 ### 官方视频
