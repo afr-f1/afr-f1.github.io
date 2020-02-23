@@ -19,7 +19,7 @@
 
 ### 车载
 
-[KenHo(排位赛个人单圈1.39.307](https://www.bilibili.com/video/av90886416)
+[AFR.STL(排位赛个人单圈1.39.307](https://www.bilibili.com/video/av90886416)
 
 [Mercedes4orever(积分区？DSQ?)](https://www.bilibili.com/video/av90789213)
 
