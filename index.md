@@ -2,7 +2,7 @@
 
 欢迎加入F1 AFR联赛 qq:960827622
 
-## :four: S5 R04 阿塞拜疆 [:fast_forward:more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
+## :four: S5 R04 阿塞拜疆 [:fast_forward:](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
 
 ### 官方视频
 
