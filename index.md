@@ -4,8 +4,14 @@
 
 ---
 
+S5赛程
+=====
+
 * [S5R04-阿塞拜疆](#S5R04-阿塞拜疆)
 * [S5R03-中国](#S5R03-中国)
+* [S5R02-巴林](#S5R02-巴林)
+* [S5R01-澳大利亚](#S5R01-澳大利亚)
+
 ---
 
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png) 
@@ -69,7 +75,7 @@
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/510px-Flag_of_Bahrain.svg.png)
 
 
-## S5R02-巴林 
+## S5R02-巴林
 
 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
 
