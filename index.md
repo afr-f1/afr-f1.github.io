@@ -29,7 +29,9 @@
 
 [Ryan1878(F1吃尾流就好呀)](https://www.bilibili.com/video/av90887147)
 
-![国旗]( https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/2560px-Flag_of_the_People%27s_Republic_of_China.svg.png)
+---
+
+![国旗]( https://steamuserimages-a.akamaihd.net/ugc/775107058373552665/29C01902E25F8B516D4D4BC7E2448E4694C9C4B8/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
 ## S5 R03 中国 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R03)
 
