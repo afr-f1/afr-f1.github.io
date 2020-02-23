@@ -26,7 +26,45 @@
 
 ## R03 中国
 
+### 官方视频
+
+[steven带你逛赛道](https://www.bilibili.com/video/av88104441)
+
+[A1直播录像](https://www.bilibili.com/video/av89318813)
+
+[A2直播录像](https://www.bilibili.com/video/av89063148)
+
+### 车载
+
+[Lee25719(2-->1)](https://www.bilibili.com/video/av89609631)
+
+[R1ceCake(场均被撞一次任务√)](https://www.bilibili.com/video/av89315351)
+
+[32(现在这个游戏真的太难了)](https://www.bilibili.com/video/av89445169)
+
+[flamus(与全国季军同台竞技！激战全场！)](https://www.bilibili.com/video/av89301719)
+
+[stevenli(封神之战！在自己的弱图上海从P14到P3，完美的策略执行力和稳定性相结合的制胜关键！)](https://www.bilibili.com/video/av89079675)
+
 ## R02 巴林
+
+### 官方视频
+
+[steven带你逛赛道](https://www.bilibili.com/video/av86359097)
+
+[A1直播录像](https://www.bilibili.com/video/av87666903)
+
+[A2直播录像](https://www.bilibili.com/video/av87424916)
+
+### 车载
+
+[Lee25719(9-->2)](https://www.bilibili.com/video/av89554125)
+
+[stevenli(我心态给开崩了。。。)](https://www.bilibili.com/video/av87846744)
+
+[flamus(整活啦！花式白给集锦！)](https://www.bilibili.com/video/av87666051)
+
+[32(排位白给，正赛捡捡皮夹挺惬意)](https://www.bilibili.com/video/av87670196)
 
 ## R01 澳大利亚
 
