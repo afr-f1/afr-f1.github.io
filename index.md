@@ -1,8 +1,8 @@
-# Welcome To AFR Wiki
+# Welcome To AFR Wiki 
 
 # S5
 
-## R04 阿塞拜疆
+## R04 阿塞拜疆 [->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R04)
 
 ### 官方视频
 
@@ -24,7 +24,7 @@
 
 [Ryan1878(F1吃尾流就好呀)](https://www.bilibili.com/video/av90887147)
 
-## R03 中国
+## R03 中国 [->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R03)
 
 ### 官方视频
 
@@ -46,7 +46,7 @@
 
 [stevenli(封神之战！在自己的弱图上海从P14到P3，完美的策略执行力和稳定性相结合的制胜关键！)](https://www.bilibili.com/video/av89079675)
 
-## R02 巴林
+## R02 巴林 [->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
 
 ### 官方视频
 
@@ -66,7 +66,7 @@
 
 [32(排位白给，正赛捡捡皮夹挺惬意)](https://www.bilibili.com/video/av87670196)
 
-## R01 澳大利亚
+## R01 澳大利亚 [->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R01)
 
 ### 官方视频
 
