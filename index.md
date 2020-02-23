@@ -1,3 +1,6 @@
+---
+---
+
 # Welcome To AFR Wiki
 
 欢迎加入F1 AFR联赛 qq:960827622
@@ -14,7 +17,12 @@ S5赛程
 
 ---
 
-![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png) 
+## 数据分析
+
+{% assign post_list = site.posts %}
+{% include post-list.html %}
+
+![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png)
 
 
 ## S5R04-阿塞拜疆
@@ -101,7 +109,7 @@ S5赛程
 
 ![国旗](http://guide.itrip.com/file/201912/02153315gm4l.jpg)
 
-## S5R01-澳大利亚 
+## S5R01-澳大利亚
 
 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R01)
 

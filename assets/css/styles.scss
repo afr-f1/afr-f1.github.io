@@ -1,0 +1,19 @@
+---
+---
+
+@import "normalize";
+@import "monokai";
+
+@import "main";
+@import "navigation";
+@import "post";
+@import "table";
+
+@import "bilibili";
+@import "table-afr";
+
+html{
+  --background-color: #303030;
+  --text-color: #CFCFCF;
+  --text-understatement-color: gray;
+}

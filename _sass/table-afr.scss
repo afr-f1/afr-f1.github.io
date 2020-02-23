@@ -1,0 +1,60 @@
+table.afr, table.afr th, table.afr td{
+  border: none;
+}
+
+table.afr, table.afr th, table.afr td{
+  white-space: nowrap;
+}
+
+table.afr.qualifying th, table.afr.qualifying td,
+table.afr.race th, table.afr.race td{
+  border: 1px solid var(--text-color)
+}
+
+table.afr td.team{
+  width: 15pt;
+}
+
+table.afr td.team.mercedes{
+  background-color: cyan;
+}
+
+table.afr td.team.ferrari{
+  background-color: red;
+}
+
+table.afr td.team.red-bull{
+  background-color: mediumblue;
+}
+
+table.afr td.team.mclaren{
+  background-color: orange;
+}
+
+table.afr td.team.renault{
+  background-color: yellow;
+}
+
+table.afr td.team.racing-point{
+  background-color: magenta;
+}
+
+table.afr td.team.alfa-romeo{
+  background-color: maroon;
+}
+
+table.afr td.team.toro-rosso{
+  background-color: cornflowerblue;
+}
+
+table.afr td.team.haas{
+  background-color: silver;
+}
+
+table.afr td.team.williams{
+  background-color: slategray;
+}
+
+table.afr td.team.reserve{
+  background-color: black;
+}
