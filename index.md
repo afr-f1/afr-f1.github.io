@@ -4,6 +4,10 @@
 
 ---
 
+<table > 
+<tr><th> 阿塞拜疆 </th><th> 中国 </th></tr>
+<tr><td>
+
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/510px-Flag_of_Azerbaijan.svg.png) 
 
 
@@ -28,6 +32,8 @@
 [stevenli(果然巴库是一个从来不会让人失望的地方)](https://www.bilibili.com/video/av90766036)
 
 [Ryan1878(F1吃尾流就好呀)](https://www.bilibili.com/video/av90887147)
+
+</td><td> 
 
 ---
 
@@ -59,6 +65,7 @@
 
 ![国旗](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/510px-Flag_of_Bahrain.svg.png)
 
+</td></tr> </table>
 
 ## S5 R02 巴林 [--->more](https://github.com/afr-f1/afr-f1.github.io/wiki/S5_R02)
 
