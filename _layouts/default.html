@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="images/png" href="/assets/images/avatar.png" />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    {% include mathjax.html %}
+    {% include robots.html %}
+    {% include highlight.html %}
+  </head>
+  <body>
+    <header>
+      <!-- {% include navigation.html %} -->
+    </header>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>

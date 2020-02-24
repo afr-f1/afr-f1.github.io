@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import "main";
+@import "post";
+
+@import "table-afr";
+
+html{
+  --text-color: #6D6D6D;
+  --text-understatement-color: gray;
+  --tag-text-color: cyan;
+}

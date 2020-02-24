@@ -1,1 +1,19 @@
 theme: jekyll-theme-tactile
+
+exclude: [vendor]
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+url: "https://afr-f1.github.io"
+plugins:
+  - jekyll-sitemap
+

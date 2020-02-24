@@ -1,0 +1,56 @@
+.post .date, .post-list .date{
+  color: gray;
+}
+
+.post a.anchor{
+
+}
+
+.post
+  h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p+p,
+  ul+p, ol+p, blockquote+p, figure+p{
+  text-indent: 2em;
+}
+
+.post blockquote{
+  // margin: 10px;
+  padding-left: 10px;
+  border-left: 3pt solid var(--text-color);
+}
+.post blockquote p{
+  text-indent: 0;
+}
+
+
+ul.post-list{
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+ul.post-list li.block{
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #888888;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+ul.post-list li.block a.title{
+  display: inline-block;
+  font-size: 125%;
+  margin-bottom: 10px;
+}
+
+ul.post-list li.block .description{
+
+}
+
+// Tag.
+.tag-list a.tag{
+  color: var(--tag-text-color);
+  background: var(--text-color);
+  border-radius: 3px;
+  padding: 2px;
+  text-decoration: none;
+  text-shadow: none;
+}
