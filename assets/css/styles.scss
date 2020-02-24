@@ -1,19 +1,15 @@
 ---
 ---
 
-@import "normalize";
-@import "monokai";
+@import "{{ site.theme }}";
 
 @import "main";
-@import "navigation";
 @import "post";
-@import "table";
 
-@import "bilibili";
 @import "table-afr";
 
 html{
-  --background-color: #303030;
-  --text-color: #CFCFCF;
+  --text-color: #6D6D6D;
   --text-understatement-color: gray;
+  --tag-text-color: cyan;
 }
