@@ -28,6 +28,10 @@ ul.post-list{
 }
 
 ul.post-list li.block{
+  list-style: none;
+}
+
+ul.post-list li.block{
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 0 20px #888888;
@@ -43,14 +47,4 @@ ul.post-list li.block a.title{
 
 ul.post-list li.block .description{
 
-}
-
-// Tag.
-.tag-list a.tag{
-  color: var(--tag-text-color);
-  background: var(--text-color);
-  border-radius: 3px;
-  padding: 2px;
-  text-decoration: none;
-  text-shadow: none;
 }

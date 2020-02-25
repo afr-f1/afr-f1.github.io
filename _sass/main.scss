@@ -1,6 +1,6 @@
-// html{
-//   line-height: normal;
-// }
+html{
+  line-height: normal;
+}
 
 body{
   // margin: 0;
@@ -9,12 +9,12 @@ body{
   // color: var(--text-color);
 }
 
-// body header{
-// 	content: '';
-// 	clear: both;
-// 	display: table;
-//   width: 100%; // Needed to contain a full-width navbar.
-// }
+body header{
+	content: '';
+	clear: both;
+	display: table;
+  width: 100%; // Needed to contain a full-width navbar.
+}
 
 body main{
   max-width: 800px;

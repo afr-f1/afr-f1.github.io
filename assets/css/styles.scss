@@ -1,15 +1,21 @@
 ---
 ---
 
+@import "normalize";
+
 @import "{{ site.theme }}";
+@import "anti-theme";
 
 @import "main";
 @import "post";
+@import "navigation";
 
+@import "bilibili";
+@import "video-list";
 @import "table-afr";
 
 html{
   --text-color: #6D6D6D;
   --text-understatement-color: gray;
-  --tag-text-color: cyan;
+  --background-color: #E7E7E7;
 }
