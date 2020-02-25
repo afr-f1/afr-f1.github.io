@@ -28,6 +28,10 @@ ul.post-list{
 }
 
 ul.post-list li.block{
+  list-style: none;
+}
+
+ul.post-list li.block{
   border: 1px solid;
   border-radius: 8px;
   box-shadow: 0 0 20px #888888;

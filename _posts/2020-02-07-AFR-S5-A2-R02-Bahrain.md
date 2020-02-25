@@ -11,12 +11,23 @@ description: AFR S5赛季A2组别 第二站巴林站落下帷幕, 恭喜赛点�
 
 ## 视频
 
-<h3 id="%E5%AE%98%E6%96%B9%E8%A7%86%E9%A2%91">官方视频</h3>
-<p><a href="https://www.bilibili.com/video/av86359097">steven带你逛赛道</a></p>
-<p><a href="https://www.bilibili.com/video/av87424916">A2直播录像</a></p>
+<script type="text/javascript">
+function bilibili(link) {
+  document.getElementById('bilibili').src = link + '&high_quality=1&danmuku=1';
+}
+</script>
+<ol class="video">
+{% for item in site.data.videos.AFR-S5-A2-R02-Bahrain-video %}
+  <li onclick="bilibili('{{ item.link }}')">
+    {{ item.name }}
+  </li>
+{% endfor %}
+</ol>
+
+<iframe id="bilibili" src="{{ site.data.videos.AFR-S5-A2-R02-Bahrain-video[0].link }}&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+
 <h3 id="%E8%BD%A6%E8%BD%BD">车载</h3>
 <p><a href="https://www.bilibili.com/video/av89554125">Lee25719(9--&gt;2)</a></p>
-<p><a href="https://www.bilibili.com/video/av87846744">stevenli(我心态给开崩了。。。)</a></p>
 <p><a href="https://www.bilibili.com/video/av87666051">flamus(整活啦！花式白给集锦！)</a></p>
 <p><a href="https://www.bilibili.com/video/av87670196">32(排位白给，正赛捡捡皮夹挺惬意)</a></p>
 
