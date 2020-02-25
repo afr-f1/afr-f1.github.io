@@ -2,3 +2,11 @@ body{
   text-shadow: none;
   background: var(--background-color);
 }
+
+header{
+  padding: 0;
+}
+
+header ul li{
+  padding-left: 0;
+}
