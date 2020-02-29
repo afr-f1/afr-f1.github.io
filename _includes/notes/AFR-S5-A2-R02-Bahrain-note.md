@@ -1,3 +1,13 @@
+
+### 加分
+
+<ol>
+<li>SSS scored an additional point for setting the fastest lap of the race.</li>
+<li>Silence Banana scored two additional points for setting the fastest lap of the qualifying session.</li>
+</ol>
+
+### 判罚
+
 * 排位赛:
   * ☆Ferrari.Leclerc在出站时跨越Pit Line（Pit区白线），在T1入弯时超越前车Noto_Ootori，此判定为危险驾驶（Dangerous Driving），并且给予下一场比赛禁排位处理
   * ☆KenHo在T1出Pit在做飞驰圈的Noto_Ootori前面，在T2, 3, 4仍然没有让车令Noto_Ootori顺利通过，判定为阻挡飞行圈（illegal block），给予下一场比赛禁排位处理
@@ -12,6 +22,8 @@
   * L13 T1：Ferrari.Vettel +5s，在T1走外线但是没有给已经超过半个车位在内线的No money足够的入弯，关门后使No money打滑并且损失位置
 * Post-Race:
   * ☆MERCEDES 4OREVER，在T13使用快速返回赛道，由于其他车手已经完成比赛，在此仅做出轻微处罚和严重警告
+
+### 提醒
 
 请各位车手在比赛时注意礼节，攻防的合法性，赛道上的摩擦无法避免，但也不应该一时冲动做出不合规的行为
 AFR赛会提醒您：赛道千万条，安全第一条；攻防不规范，黑屋两行泪.

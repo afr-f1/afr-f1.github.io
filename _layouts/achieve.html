@@ -1,0 +1,51 @@
+---
+layout: post
+---
+
+{% assign name-with-date = page.path | split: "/" | last | split: "." | first %}
+{% assign name = name-with-date | split: "-" | slice: 3, name-with-date.size | join: "-" %}
+{% capture name-video %}{{ name }}-video{% endcapture %}
+{% assign name-track = name | split: "-" | slice: -1 , 1 | join: "-" %}
+
+<h2 id="视频">视频</h2>
+<ol class="video outer">
+  {% for video in site.data.videos[name-video] %}
+    <li>
+      <span>{{ video.name }}</span>
+      <ol class="video inner">
+        {% for item in video.pages %}
+        <li onclick="bilibili('recording', '{{ video.link }}&page={{ item.number }}')">
+          {{ item.name }}
+        </li>
+        {% endfor %}
+      </ol>
+    </li>
+  {% endfor %}
+</ol>
+
+<iframe id="recording" src="{{ site.data.videos[name-video][0].link }}&high_quality=1&danmaku=1" scrolling="no"
+  border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+
+<h2 id="结果">结果</h2>
+
+{% include tables/{{ name }}-table.html %}
+
+<h2 id="注记">注记</h2>
+
+{% capture note %}
+{% include notes/{{ name }}-note.md %}
+{% endcapture %}
+{{ note | markdownify }}
+
+<h2 id="赛道">赛道</h2>
+<figure class="track">
+  <img src="/assets/images/race-track-2019-official-maps/{{ name-track }}.jpg" alt="{{ name-track }} 2019 Official Map"
+    class="track">
+  <figcaption>{{ name-track }} 2019 Official Map</figcaption>
+</figure>
+<figure class="track">
+  <img src="/assets/images/race-track-google-maps/{{ name-track }}.jpg" alt="{{ name-track }} Google Map" class="track">
+  <figcaption>{{ name-track }} Google Map</figcaption>
+</figure>
+
+{% include track-guide.html track="bahrain" year=page.year %}
