@@ -1,0 +1,22 @@
+{% for temp-guide in site.data.videos.track-guides %}
+{% if temp-guide.track == include.track and temp-guide.year == include.year %}
+{% assign guide = temp-guide %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+<ol class="video outer">
+  <li>
+    <span>{{ guide.name }}</span>
+    <ol class="video inner">
+      {% for item in guide.pages %}
+        <li onclick="bilibili('guide', '{{ }}{{ guide.link }}&page={{ item.number }}')">
+          {{ item.name }}
+        </li>
+      {% endfor %}
+    </ol>
+  </li>
+</ol>
+
+<iframe id="guide" src="{{ guide.link }}&page=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no"
+  framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>

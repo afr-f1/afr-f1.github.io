@@ -4,6 +4,11 @@ ol li, ul li{
 }
 
 ol.video{
+  margin: 0;
+  width: auto;
+}
+
+ol.video.outer{
   background-color: var(--text-color);
   color: var(--background-color);
   overflow-y: auto;
@@ -12,12 +17,12 @@ ol.video{
   max-height: 300px;
 }
 
-ol.video li{
+ol.video.inner li{
   list-style-position: inside;
   cursor: pointer;
   background-color: var(--background-color);
   color: var(--text-color);
-  margin: 5px 0;
+  margin: 5px 2em;
   padding: 0 10px;
   height: 30px;
   line-height: 30px;
@@ -27,8 +32,11 @@ ol.video li{
   text-overflow: ellipsis;
 }
 
-ol.video li:hover{
+ol.video.inner li:hover{
   background-color: var(--text-color);
   color: var(--background-color);
 }
 
+ol.video span{
+  padding: 0 10px;
+}
