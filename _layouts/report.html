@@ -28,6 +28,13 @@ function bilibili(link) {
 
 {% include tables/{{ name }}-table.html %}
 
+<h2 id="注记">注记</h2>
+
+{% capture note %}
+  {% include notes/{{ name }}-note.md %}
+{% endcapture %}
+{{ note | markdownify }}
+
 <h2 id="赛道">赛道</h2>
 
 <figure class="map">
@@ -39,10 +46,3 @@ function bilibili(link) {
   <img src="/assets/images/race-track-google-maps/{{ name-map }}.jpg" alt="{{ name-map }} Google Map" class="map">
   <figcaption>{{ name-map }} Google Map</figcaption>
 </figure>
-
-<h2 id="判罚">判罚</h2>
-
-{% capture penalty %}
-  {% include penalties/{{ name }}-penalty.md %}
-{% endcapture %}
-{{ penalty | markdownify }}
