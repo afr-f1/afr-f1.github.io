@@ -1,22 +1,36 @@
-{% for temp-guide in site.data.videos.track-guides %}
-{% if temp-guide.track == include.track and temp-guide.year == include.year %}
-{% assign guide = temp-guide %}
-{% break %}
-{% endif %}
-{% endfor %}
+<!-- track, year -->
+{% capture tracks-year %}tracks-{{ include.year }}{% endcapture %}
+{% assign track-name = include.track %}
+{% assign track = site.data.tracks[tracks-year][include.track] %}
+{% assign map = track.map %}
+{% assign guide = track.guide | first %}
 
-<ol class="video outer">
-  <li>
-    <span>{{ guide.name }}</span>
-    <ol class="video inner">
-      {% for item in guide.pages %}
-        <li onclick="bilibili('guide', '{{ }}{{ guide.link }}&page={{ item.number }}')">
-          {{ item.name }}
-        </li>
-      {% endfor %}
-    </ol>
-  </li>
-</ol>
+{% if track %}
+  <figure class="track">
+    <img src="/assets/images/race-track-2019-official-maps/{{ map }}.jpg" alt="{{ track-name }} 2019 Official Map"
+      class="track">
+    <figcaption>{{ race-track }} 2019 Official Map</figcaption>
+  </figure>
+  <figure class="track">
+    <img src="/assets/images/race-track-google-maps/{{ map }}.jpg" alt="{{ track-name }} Google Map" class="track">
+    <figcaption>{{ track-name }} Google Map</figcaption>
+  </figure>
 
-<iframe id="guide" src="{{ guide.link }}&page=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no"
+  <ol class="video outer">
+    <li>
+      <span>{{ guide.name }}</span>
+      <ol class="video inner">
+        {% for item in guide.pages %}
+          <li onclick="bilibili('guide', '{{ }}{{ guide.link }}&page={{ item.number }}')">
+            {{ item.name }}
+          </li>
+        {% endfor %}
+      </ol>
+    </li>
+  </ol>
+
+  <iframe id="guide" src="{{ guide.link }}&page=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no"
   framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+{% else %}
+  <p>Track introduction is missing.</p>
+{% endif %}

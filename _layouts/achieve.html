@@ -2,29 +2,45 @@
 layout: post
 ---
 
+<!-- 2020-02-07-AFR-S5-A2-R02-Bahrain -->
 {% assign name-with-date = page.path | split: "/" | last | split: "." | first %}
+<!-- AFR-S5-A2-R02-Bahrain -->
 {% assign name = name-with-date | split: "-" | slice: 3, name-with-date.size | join: "-" %}
-{% capture name-video %}{{ name }}-video{% endcapture %}
-{% assign name-track = name | split: "-" | slice: -1 , 1 | join: "-" %}
+<!-- S5 -->
+{% assign season = name | split: "-" | slice: 1, 1 | first %}
+<!-- videos-S5 -->
+{% capture videos-season %}videos-{{ season }}{% endcapture %}
+<!-- A2-R02 -->
+{% assign tier-race = name | split: "-" | slice: 2, 2 | join: "-" %}
+<!-- R02-Bahrain -->
+{% assign race-track = name | split: "-" | slice: -1 , 1 | join: "-" %}
+{% assign video-list = site.data.videos[videos-season][tier-race] %}
+<!-- Bahrain -->
+{% assign track-name = race-track | split: "-" | last %}
 
 <h2 id="视频">视频</h2>
-<ol class="video outer">
-  {% for video in site.data.videos[name-video] %}
-    <li>
-      <span>{{ video.name }}</span>
-      <ol class="video inner">
-        {% for item in video.pages %}
-        <li onclick="bilibili('recording', '{{ video.link }}&page={{ item.number }}')">
-          {{ item.name }}
-        </li>
-        {% endfor %}
-      </ol>
-    </li>
-  {% endfor %}
-</ol>
 
-<iframe id="recording" src="{{ site.data.videos[name-video][0].link }}&high_quality=1&danmaku=1" scrolling="no"
-  border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+{% if video-list %}
+  <ol class="video outer">
+    {% for video in video-list %}
+      <li>
+        <span>{{ video.name }}</span>
+        <ol class="video inner">
+          {% for item in video.pages %}
+          <li onclick="bilibili('recording', '{{ video.link }}&page={{ item.number }}')">
+            {{ item.name }}
+          </li>
+          {% endfor %}
+        </ol>
+      </li>
+    {% endfor %}
+  </ol>
+
+  <iframe id="recording" src="{{ video-list[0].link }}&high_quality=1&danmaku=1" scrolling="no"
+    border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+{% else %}
+  <p>Videos are missing.</p>
+{% endif %}
 
 <h2 id="结果">结果</h2>
 
@@ -33,19 +49,10 @@ layout: post
 <h2 id="注记">注记</h2>
 
 {% capture note %}
-{% include notes/{{ name }}-note.md %}
+  {% include notes/{{ name }}-note.md %}
 {% endcapture %}
 {{ note | markdownify }}
 
 <h2 id="赛道">赛道</h2>
-<figure class="track">
-  <img src="/assets/images/race-track-2019-official-maps/{{ name-track }}.jpg" alt="{{ name-track }} 2019 Official Map"
-    class="track">
-  <figcaption>{{ name-track }} 2019 Official Map</figcaption>
-</figure>
-<figure class="track">
-  <img src="/assets/images/race-track-google-maps/{{ name-track }}.jpg" alt="{{ name-track }} Google Map" class="track">
-  <figcaption>{{ name-track }} Google Map</figcaption>
-</figure>
 
-{% include track-guide.html track="bahrain" year=page.year %}
+{% include track-guide.html track=track-name year=page.year %}
