@@ -1,0 +1,132 @@
+Australia:
+  map: R01 Australia - Albert Park Circuit
+  guide:
+    - name: AFR联赛S5赛季赛事前瞻 澳大利亚阿尔伯特公园赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=83458283&cid=142767292
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角
+Bahrain:
+  map: R02 Bahrain - Bahrain International Circuit
+  guide:
+    - name: AFR联赛S5赛季赛事前瞻 巴林萨基尔赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=86359097&cid=147593445
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角
+China:
+  map: R03 China - Shanghai International Circuit
+  guide:
+    - name: AFR联赛S5赛季赛事前瞻 中国上海国际赛车场赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=88104441&cid=150517621
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角
+Azerbaijan:
+  map: R04 Azerbaijan - Baku City Circuit
+  guide:
+    - name: AFR联赛S5赛季赛事前瞻 阿塞拜疆巴库街道赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=89748508&cid=153278677
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角
+Spain:
+  map: R05 Spain - Circuit de Barcelona-Catalunya
+  guide:
+    - name: 【彩蛋致敬波老师】AFR联赛S5赛季赛事前瞻 巴塞罗那加泰罗尼亚赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=91238934&cid=155791261
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角
+Canada:
+  map:
+  guide:
+    - name: AFR联赛S5赛季赛事前瞻 加拿大吉尔维伦纽夫赛道单圈演示
+      link: //player.bilibili.com/player.html?aid=92808704&cid=158454279
+      pages:
+        - number: 1
+          name: 车载视角(英文解说版)
+        - number: 2
+          name: 地面视角(F1官方视角)
+        - number: 3
+          name: 车载视角(中文解说版)
+        - number: 4
+          name: 车载视角(无解说版)
+        - number: 5
+          name: 座舱视角
+        - number: 6
+          name: 前翼视角
+        - number: 7
+          name: 电视转播视角
+        - number: 8
+          name: 车尾视角

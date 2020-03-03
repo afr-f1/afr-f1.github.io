@@ -1,0 +1,134 @@
+A2-R01:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A2组别 Round1 · 澳大利亚站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=83893855&cid=143531609
+      pages:
+        - number: 1
+          name: F1 AFR 2020 S5赛季新片头
+        - number: 2
+          name: A2正赛TOP5
+        - number: 3
+          name: A2排位赛
+        - number: 4
+          name: A2正赛
+A2-R02:
+  note: y
+  result: y
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A2组别 Round2 · 巴林站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=87424916&cid=149359795
+      pages:
+        - number: 1
+          name: A2排位赛
+        - number: 2
+          name: A2正赛
+    - name: 【快乐F1】我心态给开崩了。。。AFR联赛S5A2巴林站个人车载
+      owner: Steven
+      link: //player.bilibili.com/player.html?aid=87846744&cid=150086318
+      pages:
+        - number: 1
+          name: 全场集锦
+        - number: 2
+          name: 排位赛全场录像
+        - number: 3
+          name: 正赛全场录像
+A1-R02:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A1组别 Round2 · 巴林站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=87666903&cid=149783844
+      pages:
+        - number: 1
+          name: 精彩镜头Top 5
+        - number: 2
+          name: 18min短排位
+        - number: 3
+          name: 50%正赛
+A2-R03:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A2组别 Round3 · 上海站
+      owner: 官方
+      link:  //player.bilibili.com/player.html?aid=89063148&cid=152115873
+      pages:
+        - number: 1
+          name: TOP5
+        - number: 2
+          name: A2排位赛
+        - number: 3
+          name: A2正赛
+A1-R03:
+  videos:
+    - name: 【解说甲亢秀】F1 AFR联赛 2020 S5赛季 A1组别 Round3 · 中国站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=89318813&cid=152536955
+      pages:
+        - number: 1
+          name: 正赛Top10
+        - number: 2
+          name: 18min短排位
+        - number: 3
+          name: 50%正赛
+A2-R04:
+  videos:
+    - name: 【全程惨烈事故】F1 AFR联赛 2020 S5赛季 A2组别 Round4 · 阿塞拜疆站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=90714654&cid=154907795
+      pages:
+        - number: 1
+          name: 正赛TOP5
+        - number: 2
+          name: A2排位赛
+        - number: 3
+          name: 巴库正赛
+A1-R04:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A1组别 Round4 · 阿塞拜疆站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=91012180&cid=155376835
+      pages:
+        - number: 1
+          name: 精彩镜头Top 10
+        - number: 2
+          name: 18min短排位
+        - number: 3
+          name: 50%正赛
+A2-R05:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A2组别 Round5 · 西班牙站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=92542572&cid=158003765
+      pages:
+        - number: 1
+          name: A2排位赛
+        - number: 2
+          name: A2正赛
+A1-R05:
+  videos:
+    - name: F1 AFR联赛 2020 S5赛季 A1组别 Round5 · 西班牙站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=92782151&cid=158364221
+      pages:
+        - number: 1
+          name: Top5
+        - number: 2
+          name: 排位赛全场录像
+        - number: 3
+          name: 正赛全场录像
+A3-R01:
+  videos:
+    - name: F1 AFR联赛 S5赛季 A3组别 西班牙站精彩瞬间Top5
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=93018522&cid=158813245
+      pages:
+        - number: 1
+          name: F1 AFR联赛 S5赛季 A3组别 西班牙站精彩瞬间Top5
+    - name: F1 AFR联赛 2020 S5赛季 A3组别 Round1 · 西班牙站
+      owner: 官方
+      link: //player.bilibili.com/player.html?aid=93034058&cid=158824398
+      pages:
+        - number: 1
+          name: A3短排位
+        - number: 2
+          name: A3正赛
