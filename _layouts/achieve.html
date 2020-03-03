@@ -25,7 +25,7 @@ layout: post
   <ol class="video outer">
     {% for video in video-list %}
       <li>
-        <span>{{ video.name }}</span>
+        <span>{{ video.owner }}: {{ video.name }}</span>
         <ol class="video inner">
           {% for item in video.pages %}
           <li onclick="bilibili('recording', '{{ video.link }}&page={{ item.number }}')">
