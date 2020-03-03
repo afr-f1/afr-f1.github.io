@@ -9,12 +9,13 @@ layout: post
 <!-- S5 -->
 {% assign season = name | split: "-" | slice: 1, 1 | first %}
 <!-- videos-S5 -->
-{% capture videos-season %}videos-{{ season }}{% endcapture %}
+{% capture races-season %}races-{{ season }}{% endcapture %}
 <!-- A2-R02 -->
 {% assign tier-race = name | split: "-" | slice: 2, 2 | join: "-" %}
 <!-- R02-Bahrain -->
 {% assign race-track = name | split: "-" | slice: -1 , 1 | join: "-" %}
-{% assign video-list = site.data.videos[videos-season][tier-race] %}
+{% assign race-data = site.data.videos[races-season][tier-race] %}
+{% assign video-list = race-data.videos %}
 <!-- Bahrain -->
 {% assign track-name = race-track | split: "-" | last %}
 
@@ -39,19 +40,27 @@ layout: post
   <iframe id="recording" src="{{ video-list[0].link }}&high_quality=1&danmaku=1" scrolling="no"
     border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
 {% else %}
-  <p>Videos are missing.</p>
+  <p>The videos are missing.</p>
 {% endif %}
 
 <h2 id="结果">结果</h2>
 
-{% include tables/{{ name }}-table.html %}
+{% if race-data.result %}
+  {% include tables/{{ name }}-table.html %}
+{% else %}
+  <p>The result is missing.</p>
+{% endif %}
 
 <h2 id="注记">注记</h2>
 
-{% capture note %}
-  {% include notes/{{ name }}-note.md %}
-{% endcapture %}
-{{ note | markdownify }}
+{% if race-data.note %}
+  {% capture notes %}
+    {% include notes/{{ name }}-note.md %}
+  {% endcapture %}
+  {{ notes | markdownify }}
+{% else %}
+  <p>The notes are missing.</p>
+{% endif %}
 
 <h2 id="赛道">赛道</h2>
 
