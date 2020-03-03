@@ -16,21 +16,24 @@
     <figcaption>{{ track-name }} Google Map</figcaption>
   </figure>
 
-  <ol class="video outer">
-    <li>
-      <span>{{ guide.name }}</span>
-      <ol class="video inner">
-        {% for item in guide.pages %}
-          <li onclick="bilibili('guide', '{{ }}{{ guide.link }}&page={{ item.number }}')">
-            {{ item.name }}
-          </li>
-        {% endfor %}
-      </ol>
-    </li>
-  </ol>
+  {% if guide %}
+    <ol class="video outer">
+      <li>
+        <span>{{ guide.name }}</span>
+        <ol class="video inner">
+          {% for item in guide.pages %}
+            <li onclick="bilibili('guide', '{{ }}{{ guide.link }}&page={{ item.number }}')">
+              {{ item.name }}
+            </li>
+          {% endfor %}
+        </ol>
+      </li>
+    </ol>
 
-  <iframe id="guide" src="{{ guide.link }}&page=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no"
-  framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+    <iframe id="guide" src="{{ guide.link }}&page=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="bilibili"> </iframe>
+  {% else %}
+    <p>The track guide is missing.</p>
+  {% endif %}
 {% else %}
   <p>The track introduction is missing.</p>
 {% endif %}
