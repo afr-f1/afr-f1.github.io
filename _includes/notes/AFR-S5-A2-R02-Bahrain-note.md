@@ -1,10 +1,8 @@
 
 ### 加分
 
-<ol>
-<li>SSS scored an additional point for setting the fastest lap of the race.</li>
-<li>Silence Banana scored two additional points for setting the fastest lap of the qualifying session.</li>
-</ol>
+1. SSS scored an additional point for setting the fastest lap of the race.
+2. Silence Banana scored two additional points for setting the fastest lap of the qualifying session.
 
 ### 判罚
 
