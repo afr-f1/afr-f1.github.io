@@ -14,7 +14,7 @@ layout: post
 {% assign tier-race = name | split: "-" | slice: 2, 2 | join: "-" %}
 <!-- R02-Bahrain -->
 {% assign race-track = name | split: "-" | slice: -1 , 1 | join: "-" %}
-{% assign race-data = site.data.videos[races-season][tier-race] %}
+{% assign race-data = site.data.races[races-season][tier-race] %}
 {% assign video-list = race-data.videos %}
 <!-- Bahrain -->
 {% assign track-name = race-track | split: "-" | last %}
